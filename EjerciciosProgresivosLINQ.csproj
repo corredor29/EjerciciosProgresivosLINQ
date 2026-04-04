@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Aplication\" />
+    <Folder Include="Aplication\Services\" />
     <Folder Include="Domain\" />
     <Folder Include="Domain\Entities\" />
     <Folder Include="Infrastructure\" />

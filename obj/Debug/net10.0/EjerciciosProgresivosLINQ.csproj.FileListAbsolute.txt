@@ -1,0 +1,15 @@
+D:\Documentos\EjerciciosProgresivosLINQ\bin\Debug\net10.0\EjerciciosProgresivosLINQ.exe
+D:\Documentos\EjerciciosProgresivosLINQ\bin\Debug\net10.0\EjerciciosProgresivosLINQ.deps.json
+D:\Documentos\EjerciciosProgresivosLINQ\bin\Debug\net10.0\EjerciciosProgresivosLINQ.runtimeconfig.json
+D:\Documentos\EjerciciosProgresivosLINQ\bin\Debug\net10.0\EjerciciosProgresivosLINQ.dll
+D:\Documentos\EjerciciosProgresivosLINQ\bin\Debug\net10.0\EjerciciosProgresivosLINQ.pdb
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.AssemblyInfoInputs.cache
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.AssemblyInfo.cs
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.csproj.CoreCompileInputs.cache
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.sourcelink.json
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.dll
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\refint\EjerciciosProgresivosLINQ.dll
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.pdb
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\EjerciciosProgresivosLINQ.genruntimeconfig.cache
+D:\Documentos\EjerciciosProgresivosLINQ\obj\Debug\net10.0\ref\EjerciciosProgresivosLINQ.dll
