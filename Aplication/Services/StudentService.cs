@@ -34,6 +34,11 @@ public class StudentService
         {
             Console.WriteLine($"{notas.Nombre} - {notas.Nota}");
         }
+        // Nivel 5 Buscar el mejor estudiante
+        Console.WriteLine("Buscar el mejor estudiante");
+
+        var bestStudent = students.OrderByDescending(best => best.Nota).FirstOrDefault();
+        Console.WriteLine($"{bestStudent?.Nombre}-{bestStudent?.Nota}");
     }
 
 }
