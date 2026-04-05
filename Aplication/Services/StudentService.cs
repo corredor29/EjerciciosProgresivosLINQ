@@ -26,6 +26,14 @@ public class StudentService
         {
             Console.WriteLine(name);
         } 
+        // Nivel 3 Ordenar estudiantes por nota y luego por nombre
+        Console.WriteLine("Ordenar estudiantes por nota y luego por nombre");
+
+        var notaStudent =students.OrderByDescending(nota => nota.Nota).ThenBy(nota => nota.Nombre);
+        foreach ( var notas in notaStudent)
+        {
+            Console.WriteLine($"{notas.Nombre} - {notas.Nota}");
+        }
     }
 
 }
