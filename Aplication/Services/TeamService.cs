@@ -22,5 +22,14 @@ public class TeamService
         Console.WriteLine("Revisar si existe algún equipo con menos de 10 puntos");
         bool existe = Teams.Any(exi => exi.Puntos < 10);
         Console.WriteLine(existe);
+
+        // Reto Final mezclando todo
+        Console.WriteLine("Reto Final mezclando todo");
+
+        var result = Teams.Where(e=> e.GolesFavor > e.GolesContra).OrderByDescending(e=> e.Puntos).Select(e => new {e.Nombre, DiferenciaGol= e.GolesFavor-e.GolesContra});
+        foreach (var item in result)
+        {
+            Console.WriteLine($"{item.Nombre} - DG: {item.DiferenciaGol}");
+        }
     }
 }
