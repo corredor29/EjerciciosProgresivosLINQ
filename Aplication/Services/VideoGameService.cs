@@ -25,5 +25,9 @@ public class VideoGameService
         {
             Console.WriteLine(names);
         }
+        // Nivel 4 Contar cuántos videojuegos tienen más de 90 puntos
+        Console.WriteLine("Contar cuántos videojuegos tienen más de 90 puntos");
+        int Cantidad = videoGames.Count(contar => contar.Puntos > 90);
+        Console.WriteLine(Cantidad);
     }
 }
