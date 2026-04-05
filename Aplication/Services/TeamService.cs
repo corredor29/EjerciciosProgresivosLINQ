@@ -18,5 +18,9 @@ public class TeamService
         {
             Console.WriteLine($"{Team.Nombre}-{Team.Puntos} Pts");
         }
+        // Nivel 4 Revisar si existe algún equipo con menos de 10 puntos
+        Console.WriteLine("Revisar si existe algún equipo con menos de 10 puntos");
+        bool existe = Teams.Any(exi => exi.Puntos < 10);
+        Console.WriteLine(existe);
     }
 }
