@@ -10,5 +10,8 @@ class Program
 
         var StudentService = new StudentService();
         StudentService.ShowStudents();
+
+        var TeamService = new TeamService();
+        TeamService.ShowTeam();
     }
 }

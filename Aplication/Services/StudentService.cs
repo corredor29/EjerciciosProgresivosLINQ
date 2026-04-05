@@ -25,7 +25,7 @@ public class StudentService
         foreach ( var name in nameStudent)
         {
             Console.WriteLine(name);
-        }
+        } 
     }
 
 }
