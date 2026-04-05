@@ -39,6 +39,20 @@ public class StudentService
 
         var bestStudent = students.OrderByDescending(best => best.Nota).FirstOrDefault();
         Console.WriteLine($"{bestStudent?.Nombre}-{bestStudent?.Nota}");
+
+        // Nivel 5 Agrupar estudiantes por curso
+        Console.WriteLine("Agrupar estudiantes por curso");
+
+        var grupos =students.GroupBy(e => e.Curso);
+        foreach (var grupo in grupos)
+        {
+            Console.WriteLine($"Curso:{grupo.Key}");
+            foreach (var student in grupo)
+            {
+                Console.WriteLine($"-{student.Nombre}");
+            }
+        }
+
     }
 
 }
